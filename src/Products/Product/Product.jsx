@@ -4,6 +4,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { IoTimeOutline } from "react-icons/io5";
+import { FaFireAlt } from "react-icons/fa";
 console.log(PropTypes);
 //  option 1
 
@@ -64,16 +65,16 @@ export default function Product({
           </div>
       <div className="flex justify-between w-full items-center mt-1  border-t pt-3 border-t-gray-600">
     <span className="flex items-center gap-3">  <IoTimeOutline /> {preparing_time}</span>
-          <span className="flex items-center gap-3"> <IoTimeOutline />  {calories} </span>
+          <span className="flex items-center gap-3"> <FaFireAlt />  {calories} </span>
       </div>
           <div className={`card-actions justify-start`}>
             <button
               className={`${
                 clicked ? "bg-red-500" : "alert('error')"
-              } btn btn-primary text-white lg:text-xl border-none`}
+              } btn bg-green-300 text-black lg:text-xl border-none`}
               onClick={handleData}
             >
-              {color ? "buy now" : "buy now"}{" "}
+              {color ? "want to cook" : "want to cook"}{" "}
             </button>
           </div>
         </div>

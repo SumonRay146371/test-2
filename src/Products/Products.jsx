@@ -3,7 +3,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 import banner from "../assets/banner.png";
 import Product from "./Product/Product";
-
+import { CgProfile } from "react-icons/cg";
 export default function Products(props) {
   const { products } = props;
   const [onLoadData, setOnLoadData] = useState([]);
@@ -45,17 +45,27 @@ export default function Products(props) {
   return (
     <div>
       <header>
-        <div className="text-2xl mt-5 font-serif font-extrabold container mx-auto flex justify-between lg:px-24 px-8">
+        <div className="text-2xl mt-5 font-serif font-extrabold container mx-auto flex justify-between lg:px-24 ">
           <div className="navbar bg-base-100">
             <div className="flex-1">
-              <a className="btn btn-ghost text-xl">daisyUI</a>
+              <a className="btn btn-ghost mr-14 text-xl">Recipe Calories</a>
+              <div className="hidden md:hidden lg:block    ">
+              <ul className=" flex text-xl font-light gap-12 text-center  justify-left items-center   ">
+                <li>phone</li>
+                <li className="">recipees </li>
+                <li>about</li>
+                <li>search</li>
+              </ul>
             </div>
+            </div>
+     
             <div className="flex-none gap-2">
               <div className="form-control">
                 <input
                   type="text"
                   placeholder="Search"
-                  className="input input-bordered w-24 md:w-auto"
+                  className="input bg-zinc-300 rounded-full input-bordered w-24 md:w-auto"
+                 
                 />
               </div>
               <div className="dropdown dropdown-end">
@@ -64,11 +74,8 @@ export default function Products(props) {
                   role="button"
                   className="btn btn-ghost btn-circle avatar"
                 >
-                  <div className="w-10 rounded-full">
-                    <img
-                      alt="Tailwind CSS Navbar component"
-                      src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
-                    />
+                  <div className="  rounded-full">
+                <CgProfile className="text-5xl text-green-300" />
                   </div>
                 </div>
                 <ul
@@ -77,15 +84,21 @@ export default function Products(props) {
                 >
                   <li>
                     <a className="justify-between">
-                      Profile
-                      <span className="badge">New</span>
+                    phone
                     </a>
+                 
                   </li>
                   <li>
-                    <a>Settings</a>
+                      <a href="">
+                      recipees
+
+                      </a>
+                    </li>
+                  <li>
+                    <a>about</a>
                   </li>
                   <li>
-                    <a>Logout</a>
+                    <a>search</a>
                   </li>
                 </ul>
               </div>
@@ -96,14 +109,14 @@ export default function Products(props) {
         <section className="my-5 container mx-auto lg:px-24 px-4">
           {/* Background image section */}
           <div
-            className=" h-[70vh] flex flex-col items-center justify-center bg-center bg-no-repeat"
+            className=" h-[90vh] flex flex-col items-center justify-center bg-center bg-no-repeat"
             style={{ backgroundImage: `url(${banner})` }}
           >
             <div className="text-center flex flex-col  text-white">
-              <h1 className="text-3xl font-extrabold lg:text-6xl ">
+              <h1 className="text-3xl font-extrabold   lg:text-4xl ">
                 Discover an exceptional cooking <br /> class tailored for you!
               </h1>
-              <p className=" my-10">
+              <p className="my-4 lg:w-2/3 mx-auto lg:my-10">
                 A specialty food is a food that is typically considered as
                 unique and high-value food item made in small quantities from
                 high-quality ingredients". Consumers typically pay higher prices
@@ -125,6 +138,10 @@ export default function Products(props) {
 
       <main className=" mx-auto  font-serif">
         <div className="container mx-auto lg:px-24 px-4 ">
+<div className="text-center">
+<h1 className="text-2xl"> Our Recipes </h1>
+          <p className="mt-4 lg:w-1/3 mx-auto"> Welcome to CookBook! To get you started we've added  you a couple of sample recipes. Tap next to set this device up and ...</p>
+</div>
           <div className="grid lg:grid-cols-12 grid-cols-1 gap-6 mt-8">
             <div className="lg:col-span-8 col-span-12">
               <div className="grid grid-cols-1 w-full mx-auto lg:grid-cols-2 gap-4">
@@ -139,14 +156,13 @@ export default function Products(props) {
               </div>
             </div>
             {/* cooking section  */}
-            <div className="border-2 lg:col-span-4 col-span-12 flex flex-col items-center font-sans  ">
-              <h1 className="text-center font-extrabold">
+            <div className=" lg:col-span-4 col-span-12 flex flex-col items-center font-sans  ">
+              <h1 className="border-b border-b-gray-600 pb-3 mb-3  text-center font-extrabold ">
                 Want to Cook: ({count}){" "}
               </h1>
-              <h1 className="mb-4 text-center  border-b pb-3 border-b-gray-600  font-extrabold text-2xl"></h1>
               <table className="w-full">
                 <thead className="flex items-center justify-center  ">
-                  <tr className=" flex w-[90%] mx-auto mr-6 items-center justify-around   border-4" align='center'>
+                  <tr className=" flex w-[90%] mx-auto mr-6 items-center justify-around mb-2  " align='center'>
                     <th width=""  className="">Name</th>
                     <th width="" className="-translate-x-4">Time</th>
                     <th width="" className="-translate-x-10">Calories</th>
@@ -163,10 +179,10 @@ export default function Products(props) {
                   };
 
                   return (
-                    <tbody key={ind} className="border-4  mx-auto">
-                      <tr className="flex w-72 mx-auto   gap-4 lg:gap-10 lg:translate-x- items-center justify-center ">
+                    <tbody key={ind} className="  mx-auto">
+                      <tr className="flex shadow-lg  mx-auto   gap-4 lg:gap-10 lg:translate-x- items-center justify-center ">
                         <td className=" ">{ind} </td>
-                        <td width="" className="border"> {recipe_name} </td>
+                        <td width="" className=""> {recipe_name} </td>
                         <td width=""> {preparing_time} </td>
                         <td width=""> {calories} </td>
 
@@ -188,13 +204,13 @@ export default function Products(props) {
                 {/* <section className="border-4 rounded-lg "></section> */}
 
                
-                  <h1 className="text-center font-sans  border-b pb-3 border-b-gray-600  font-extrabold">
+                  <h1 className="text-center font-sans mb-2 border-b pb-3 border-b-gray-600  font-extrabold">
                     Currently cooking: ({currentCardCount}){" "}
                   </h1>
 
                   <table width='full' className="flex justify-center flex-col">
                   <thead className="flex items-center justify-center  ">
-                  <tr className=" flex  w-full -translate-x-12 gap-20 lg:gap-11  ml-20 items-center justify-center  border-4" align='center'>
+                  <tr className=" flex  w-full -translate-x-12 gap-20 lg:gap-11  ml-20 items-center justify-center  " align='center'>
                     <th width=""  className="">Name</th>
                     <th width="" className="">Time</th>
                     <th width="" className="">Calories</th>
@@ -206,7 +222,7 @@ export default function Products(props) {
                 
              <div key={index}>
 
-            <div className="flex  justify-start  -translate-x-4 lg:gap-4 gap-2">
+            <div className="flex shadow-lg  justify-start  -translate-x-4 lg:gap-4 gap-5">
             <h1>{index} </h1>
                <h1>{recipe.recipe_name} </h1>
                <h1>{recipe.preparing_time} </h1>
