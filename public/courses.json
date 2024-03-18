@@ -1,0 +1,200 @@
+[
+  {
+      "id": 1,
+      "name": "Introduction to C Programming",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "photo": "https://i.ibb.co/sP7VHpQ/Rectangle-2-2.png",
+      "price": 15000,
+      "credit": 1,
+      "recipe_id": 1,
+      "recipe_name": "Chicken Stir-Fry",
+      "recipe_image": "https://images.unsplash.com/photo-1496412705862-e0088f16f791?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
+      "short_description": "Delicious chicken stir-fry with vegetables",
+      "ingredients": [
+          "550 g chicken",
+          "120 ml soy sauce",
+          "200 g basil leaf",
+          "400 g mushroom",
+          "1 tsp garlic powder",
+          "1 tbsp sesame oil"
+      ],
+      "preparing_time": "30 min",
+      "calories": "320 calories"
+  },
+  {
+      "id": 2,
+      "name": "Introduction to Algorithms",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "photo": "https://i.ibb.co/z7GMnyn/Rectangle-2-3.png",
+      "price": 25000,
+      "credit": 2 ,
+      "recipe_id": 2,
+      "recipe_name": "Vegetable Pasta",
+      "recipe_image": "https://media.istockphoto.com/id/1489431195/photo/meat-with-grilled-vegetables-in-bowl.jpg?s=612x612&w=0&k=20&c=vvuUfll9IfSyiQgPz5JJzmk7m7up3Hz81C1dqfCOUkU=",
+      "short_description": "Healthy pasta with mixed vegetables",
+      "ingredients": [
+          "300 g pasta",
+          "150 g broccoli",
+          "100 g cherry tomatoes",
+          "50 g spinach",
+          "2 cloves garlic",
+          "1/4 cup olive oil"
+      ],
+      "preparing_time": "25 min",
+      "calories": "250 calories"
+  },
+  {
+      "id": 3,
+      "name": "Introduction to C++ for DSA",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "photo": "https://i.ibb.co/s6Q2NLP/Rectangle-2-4.png",
+      "price": 10000,
+      "credit": 10,
+      "recipe_id": 3,
+      "recipe_name": "Grilled Salmon",
+      "recipe_image": "https://plus.unsplash.com/premium_photo-1705947841462-9a471d5ae9fc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+      "short_description": "Juicy grilled salmon with lemon",
+      "ingredients": [
+          "400 g salmon fillet",
+          "50 ml olive oil",
+          "1 lemon",
+          "Salt and pepper to taste",
+          "1 tbsp Dijon mustard",
+          "2 cloves garlic"
+      ],
+      "preparing_time": "20 min",
+      "calories": "280 calories"
+  },
+  {
+      "id": 4,
+      "name": "Basic Data Structures",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "photo": "https://i.ibb.co/6tbcdCc/Rectangle-3.png",
+      "price": 35000,
+      "credit": 5,
+      "recipe_id": 4,
+      "recipe_name": "Quinoa Salad",
+      "recipe_image": "https://images.unsplash.com/photo-1497888329096-51c27beff665?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8",
+      "short_description": "Refreshing quinoa salad with vegetables",
+      "ingredients": [
+          "200 g quinoa",
+          "100 g cucumber",
+          "100 g bell pepper",
+          "50 g feta cheese",
+          "1/4 cup olive oil",
+          "2 tbsp lemon juice"
+      ],
+      "preparing_time": "15 min",
+      "calories": "200 calories"
+  },
+  {
+      "id": 5,
+      "name": "Introduction to OOP Python",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "photo": "https://i.ibb.co/6XJ58mC/Rectangle-2.png",
+      "price": 35000,
+      "credit": 5,
+      "recipe_id": 5,
+      "recipe_name": "Berry Smoothie",
+      "recipe_image": "https://media.istockphoto.com/id/547034278/photo/delicious-food-for-breakfast.webp?s=170667a&w=0&k=20&c=cWXaOSPNR4nnxpKYw4wd5Oxnrb0qGwmpxKjD3HZUf5Y=",
+      "short_description": "Healthy and delicious berry smoothie",
+      "ingredients": [
+          "150 g mixed berries",
+          "200 ml yogurt",
+          "1 banana",
+          "Honey to taste",
+          "1/4 cup orange juice",
+          "1/2 cup ice cubes"
+      ],
+      "preparing_time": "10 min",
+      "calories": "150 calories"
+  },
+  {
+      "id": 6,
+      "name": "Software Engineering",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "photo": "https://i.ibb.co/L1PFPW3/Rectangle-2-5.png",
+      "price": 23000,
+      "credit": 2,
+      "recipe_id": 6,
+      "recipe_name": "Vegetarian Chili",
+      "recipe_image": "https://media.istockphoto.com/id/546801344/photo/belgian-waffles-with-strawberries.jpg?s=612x612&w=is&k=20&c=aXu9BFphADhXxIsk4rFLl5mwr1cNRH7mdSZQFL37sLI=",
+      "short_description": "Hearty vegetarian chili with beans",
+      "ingredients": [
+          "400 g mixed beans",
+          "200 g tomatoes",
+          "100 g onion",
+          "50 g bell pepper",
+          "2 cloves garlic",
+          "1 tsp chili powder"
+      ],
+      "preparing_time": "35 min",
+      "calories": "220 calories"
+  },
+  {
+      "id": 7,
+      "name": "AWS Cloud Computing",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "photo": "https://i.ibb.co/GC6xY2Z/Rectangle-3-1.png",
+      "price": 35000,
+      "credit": 5,
+      "recipe_id": 6,
+      "recipe_name": "Vegetarian Chili",
+      "recipe_image": "https://media.istockphoto.com/id/546800304/photo/belgian-waffles-with-strawberries.jpg?s=612x612&w=0&k=20&c=dlyjMrw6-ZJru8ju0omfFIvuLtmyYJY_-0o_Wv_BbG0=",
+      "short_description": "Hearty vegetarian chili with beans",
+      "ingredients": [
+          "400 g mixed beans",
+          "200 g tomatoes",
+          "100 g onion",
+          "50 g bell pepper",
+          "2 cloves garlic",
+          "1 tsp chili powder"
+      ],
+      "preparing_time": "35 min",
+      "calories": "220 calories"
+  },
+  {
+      "id": 8,
+      "name": "Database (MySQL)",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "photo": "https://i.ibb.co/nm12dgJ/Rectangle-2-1.png",
+      "price": 19000,
+      "credit": 5,
+      "recipe_id": 6,
+      "recipe_name": "Vegetarian Chili",
+      "recipe_image": "https://media.istockphoto.com/id/1591386245/photo/a-bowl-of-oatmeal-with-strawberries-and-almond-flakes-on-a-table.jpg?s=612x612&w=0&k=20&c=K_rEIYMwF3LGk9gEI0FTBHvT8CgdR8Ck_ypHbQ1r58s=",
+      "short_description": "Hearty vegetarian chili with beans",
+      "ingredients": [
+          "400 g mixed beans",
+          "200 g tomatoes",
+          "100 g onion",
+          "50 g bell pepper",
+          "2 cloves garlic",
+          "1 tsp chili powder"
+      ],
+      "preparing_time": "35 min",
+      "calories": "220 calories"
+  },
+  {
+      "id": 9,
+      "name": "Problem-Solving Part",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "photo": "https://i.ibb.co/BKtbpwf/Rectangle-2-6.png",
+      "price": 23000,
+      "credit": 2,
+      "recipe_id": 6,
+      "recipe_name": "Vegetarian Chili",
+      "recipe_image": "https://media.istockphoto.com/id/474561860/photo/biscuits-cornflakes-strawberry-and-milk.jpg?s=612x612&w=0&k=20&c=IgBJGnoxv64tYmcrYXNC3nKiOT1RrpsMQ_df3FCV_aM=",
+      "short_description": "Hearty vegetarian chili with beans",
+      "ingredients": [
+          "400 g mixed beans",
+          "200 g tomatoes",
+          "100 g onion",
+          "50 g bell pepper",
+          "2 cloves garlic",
+          "1 tsp chili powder"
+      ],
+      "preparing_time": "35 min",
+      "calories": "220 calories"
+  }
+]
